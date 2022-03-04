@@ -1,0 +1,203 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1
+{
+    margin-bottom: 10px;
+}
+
+.introducion
+{
+    margin-bottom: 10px;
+}
+
+.guess
+{
+    padding: 10px;
+    border-radius: 5px;
+    width: 20%;
+    margin-top: 20px;
+    background-color: #353a40;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont_letra
+{
+    margin-bottom: 10px;
+}
+
+.letraGuess
+{
+    font-size: 22px;
+    color: #c8b82a;
+}
+
+.cont_letra,.cont_btn
+{
+    display: flex;
+    justify-content: center;
+}
+
+.cont_btn
+{
+    margin-top: 10px;
+}
+
+.inputGuess
+{
+    height: 30px;
+}
+
+.btnGuess
+{
+    padding: 5px;
+    font-size: 20px;
+    background-color: #dba302;
+    border-radius: 5px;
+    border: 1px solid #c8b82a;
+}
+
+.advertencia
+{
+    width: 20%;
+    background-color: #db3543;
+}
+
+.advertencia, .box_win
+{
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.letra_advertencia, .letra_win
+{
+    font-weight: bold;
+}
+
+.letra_advertencia
+{
+    font-size: 20px;
+    color: #ffad2a;
+}
+
+.box_win
+{
+    width: 18%;
+    background-color: #009d0e;
+    text-align: center;
+}
+
+.letra_win
+{
+    font-size: 40px;
+    color: white;
+}
+
+.letra_won
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.lc_intentos
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cont_winner
+{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  width: 18%;
+}
+
+
+.cw_superior
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cw_inferior
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.labelWinner
+{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.inputWinner
+{
+    width: 80%;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+
+.btnSave
+{
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+table 
+{
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+  
+th 
+{
+    background: rgb(170, 162, 243);
+    border: 2px solid black;
+}
+  
+td,tr 
+{
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+}
+
+.playAgain
+{
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: grey;
+    margin-top: 20px;
+}

@@ -1,0 +1,22 @@
+{% extends "index.html" %}
+{% block cantidadIntentos%}{% endblock %}
+{% block advertencia%}
+<div class="box_win">
+    <p class="letra_win">{{numero}} was the number!</p>
+</div>
+{% endblock %}
+{% block panelWinner%}
+  <p class="letra_won">Won!</p>
+  <p class="lc_intentos">Adivinaste el numero en {{intentos}} intento(s)</p>
+  <div class="cont_winner">
+    <form action="/winners" method="post">
+      <div class="cw_superior">
+        <label for="txt_winner" class="labelWinner">Ingresa tu nombre</label>
+        <input type="text" name="txt_winner" class="inputWinner">
+      </div>
+      <div class="cw_inferior">
+        <button type="submit" class="btnSave">Save</button>
+      </div>
+    </form>
+  </div>
+{% endblock %}

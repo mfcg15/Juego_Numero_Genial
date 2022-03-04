@@ -1,0 +1,20 @@
+{% extends "index.html" %}
+{% block cantidadIntentos%}{% endblock %}
+{% block advertencia%}
+{% endblock %}
+{% block panelWinner%}
+    <h2>Winners List</h2>
+    <table>
+        <tr>
+            <th>Usuario</th>
+            <th>Intentos</th>
+        </tr>
+        {% for student in students %}
+            <tr>
+                <td>{{ student['user'] }}</td>
+                <td>{{ student['oportunidades'] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <a href="/" class="playAgain">Play again</a>
+{% endblock %}
